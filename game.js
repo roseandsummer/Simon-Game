@@ -44,6 +44,9 @@ function checkAnswer(currentLevel) {
   }
 }
 
+/*
+a function to check if finished
+*/
 function checkIfFinished() {
   if (userClickedPattern.length == gamePattern.length) {
     //!important : first parameter is function reference , not to call functions
